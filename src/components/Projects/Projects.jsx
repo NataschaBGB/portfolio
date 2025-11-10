@@ -5,7 +5,7 @@ import './Projects.sass'
 export default function Projects() {
 
   return (
-    <section className='portfolio__projects' id="projects">
+    <section className='portfolio__projects'>
     <h2>Projects</h2>
     <div className='portfolio__projects-wrapper'>
         <article className='portfolio__project'>
