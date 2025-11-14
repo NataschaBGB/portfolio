@@ -21,6 +21,7 @@ export default function Projects() {
             <div className='portfolio__project-description'>
                 <h3>Newsify App</h3>
                 <p>Project description</p>
+                <p>Build for use on phone</p>
                 <a href="https://rts-cmk.github.io/projekt-newsify-NataschaBGB/" target="_blank" className='portfolio__live-link'>Watch it live</a>
             </div>
         </article>

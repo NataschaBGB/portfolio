@@ -9,7 +9,10 @@ export default function Header() {
   return (
     <section className='portfolio__header'>
         <nav>
-            <a href="/"><h1>Natascha Bjerning</h1></a>
+            <div className='portfolio__logo'>
+            <h1>Natascha Gutenberg Bjerning</h1>
+            <p>Designed with care. Built for people.</p>
+            </div>
             <ul className='portfolio__links'>
                 <li className="cv">
                     <PiReadCvLogoFill className="portfolio__links-icon" />
