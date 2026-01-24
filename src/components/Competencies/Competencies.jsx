@@ -8,6 +8,7 @@ import { BiLogoPhp } from "react-icons/bi";
 import responsive_icon from '../../assets/responsive_icon.png'
 import vite_icon from '../../assets/vite_icon.png'
 import { FaReact } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 import './Competencies.sass'
 
 export default function Competencies() {
@@ -55,6 +56,10 @@ export default function Competencies() {
             <section>
                 <FaReact className="icon react" />
                 <h3>React</h3>
+            </section>
+            <section>
+                <GrMysql className="icon mysql" />
+                <h3>MySQL</h3>
             </section>
         </section>
         
