@@ -16,7 +16,7 @@ export default function Header() {
             <ul className='portfolio__links'>
                 <li className="cv">
                     <PiReadCvLogoFill className="portfolio__links-icon" />
-                    <a href="https://nataschabgb.github.io/online-cv/" target="_blank">CV</a>
+                    <a href="https://nataschabjerning.me/" target="_blank">CV</a>
                 </li>
                 <li className="linkedin">
                     <FaLinkedin className="portfolio__links-icon" />
