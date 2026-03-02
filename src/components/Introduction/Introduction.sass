@@ -1,7 +1,7 @@
 .introduction
     max-width: 1200px
     margin: 0 auto
-    padding: 6rem 0 4rem 0
+    padding: 4rem 0
     
     h2
         font-size: 28px
@@ -19,8 +19,18 @@
         object-fit: contain
 
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 1250px)
     .introduction
         padding: 4rem
         &__image
             height: 300px
+
+
+@media screen and (max-width: 768px)
+    .introduction
+        padding: 2rem
+        h2
+            text-align: center
+        &__text
+            flex-direction: column-reverse
+            gap: 1rem
