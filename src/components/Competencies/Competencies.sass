@@ -1,6 +1,6 @@
 .competencies
     position: relative
-    width: 1200px
+    max-width: 1200px
     margin: 0 auto
     padding: 4rem 0
     h2
@@ -62,3 +62,11 @@
                 color: #75DBFD
             .mysql
                 color: #0494d1
+
+
+
+@media screen and (max-width: 1024px)
+    .competencies
+        padding: 4rem
+        &__wrapper
+            grid-template-columns: repeat(3, 1fr)
