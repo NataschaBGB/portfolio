@@ -1,32 +1,40 @@
-.portfolio
-    a
-        text-decoration: none
-        color: black
-        opacity: .8
-    a:hover
-        opacity: 1
-        text-decoration: underline
-    &__header
-        position: fixed
-        top: 0
-        width: 100%
-        padding: 2rem 0
-        background-color: #C8E0C4
-        nav
+.header
+    position: sticky
+    top: 0
+    width: 100%
+    padding: 2.5rem 0
+    background-color: #1b1b1b
+    border-bottom: 2px solid #09F644
+    z-index: 1000
+
+    h1
+        font-size: 32px
+    p
+        font-size: 22px
+        line-height: 24px
+    
+    &__nav
+        display: flex
+        justify-content: space-between
+        max-width: 1200px
+        margin: 0 auto
+        ul
+            list-style-type: none
             display: flex
-            justify-content: space-between
-            max-width: 1124px
-            margin: 0 auto
-            ul
-                list-style-type: none
+            gap: 2rem
+            li
                 display: flex
-                gap: 1rem
-                li
-                    display: flex
-                    align-items: center
-                    gap: .5rem
-                    a
-                        font-size: 22px
+                align-items: center
+                gap: .5rem
+                a
+                    text-decoration: none
+                    color: #ffffff
+                    opacity: .9
+                    font-size: 22px
+                a:hover
+                    opacity: 1
+                    text-decoration: underline
+
     &__links-icon
         height: 30px
         width: 30px
