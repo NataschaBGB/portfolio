@@ -23,7 +23,7 @@ export default function Introduction() {
             <p>Whether it’s building something new or improving what already exists, my goal is to create modern, responsive, and thoughtful websites that connect with people.</p>
           </section>
 
-          <img src={projects} alt="introduction__image" />
+          <img src={projects} alt="introduction__image" className='introduction__image'/>
         
         </section>
         
