@@ -14,9 +14,10 @@ import './Competencies.sass'
 export default function Competencies() {
 
   return (
-    <article className='portfolio__competencies'>
+    <article className='competencies'>
         <h2>Competencies</h2>
-        <section className='portfolio__competencies-wrapper'>
+
+        <section className='competencies__wrapper'>
             <section>
                 <RiHtml5Line className="icon html" />
                 <h3>HTML</h3>

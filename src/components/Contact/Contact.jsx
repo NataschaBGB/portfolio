@@ -3,9 +3,9 @@ import './Contact.sass'
 export default function Contact() {
 
   return (
-    <article className='portfolio__contact'>
+    <article className='contact'>
         <h2>Contact</h2>
-        <section className='portfolio__contact-wrapper'>
+        <section className='contact__wrapper'>
             tlf
             email
             bla bla

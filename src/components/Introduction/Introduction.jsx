@@ -4,10 +4,10 @@ import './Introduction.sass'
 export default function Introduction() {
 
   return (
-    <article className='portfolio__introduction'>
-        <h2>Hello!</h2>
+    <article className='introduction'>
+        <h2>Welcome!</h2>
 
-        <section className='portfolio__introduction-text'>
+        <section className='introduction__text'>
           
           <section>
             <p>I’m Natascha Bjerning — a passionate web developer based in Brøndby, Denmark, with a strong focus on front-end development.</p>
@@ -23,7 +23,7 @@ export default function Introduction() {
             <p>Whether it’s building something new or improving what already exists, my goal is to create modern, responsive, and thoughtful websites that connect with people.</p>
           </section>
 
-          <img src={projects} alt="portfolio__introduction-image" />
+          <img src={projects} alt="introduction__image" />
         
         </section>
         
