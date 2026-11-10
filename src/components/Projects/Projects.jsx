@@ -14,10 +14,10 @@ export default function Projects() {
         <div className='projects__wrapper'>
             
             <article className='projects__project'>
-                <a href="https://potebandensdyreservice.dk/index.php" target="_blank">
+                <a href="https://potebanden.dk/index.php" target="_blank">
                     <img src={pd_logo} alt="projects__project-image" />
                     <div className='projects__project-description'>
-                        <h3>Potebandens Dyreservice</h3>
+                        <h3>Potebanden</h3>
                         <p className='text'>I made this project for a local pet service company in 2025.<br/>
                         Since they didn’t have a website beforehand, I used a flyer and a business card as my starting point. From there, I extracted color codes and design elements to create a modern and user-friendly website.<br/>
                         Behind the public-facing interface, I created and designed an intuitive admin panel where they can create, edit, and delete content. A database is connected to the system, where all content is stored and accessible through the admin panel.<br/>
